@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\ejercicio2\\ejercicio2.csproj": {}
+    "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\1.1-Algoritmos_Programacion_Estructurada\\ejercicio2\\ejercicio2.csproj": {}
   },
   "projects": {
-    "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\ejercicio2\\ejercicio2.csproj": {
+    "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\1.1-Algoritmos_Programacion_Estructurada\\ejercicio2\\ejercicio2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\ejercicio2\\ejercicio2.csproj",
+        "projectUniqueName": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\1.1-Algoritmos_Programacion_Estructurada\\ejercicio2\\ejercicio2.csproj",
         "projectName": "ejercicio2",
-        "projectPath": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\ejercicio2\\ejercicio2.csproj",
+        "projectPath": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\1.1-Algoritmos_Programacion_Estructurada\\ejercicio2\\ejercicio2.csproj",
         "packagesPath": "C:\\Users\\josej\\.nuget\\packages\\",
-        "outputPath": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\ejercicio2\\obj\\",
+        "outputPath": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\1.1-Algoritmos_Programacion_Estructurada\\ejercicio2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

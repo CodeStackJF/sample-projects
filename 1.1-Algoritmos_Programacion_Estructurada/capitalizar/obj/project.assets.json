@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\capitalizar\\capitalizar.csproj",
+      "projectUniqueName": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\1.1-Algoritmos_Programacion_Estructurada\\capitalizar\\capitalizar.csproj",
       "projectName": "capitalizar",
-      "projectPath": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\capitalizar\\capitalizar.csproj",
+      "projectPath": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\1.1-Algoritmos_Programacion_Estructurada\\capitalizar\\capitalizar.csproj",
       "packagesPath": "C:\\Users\\josej\\.nuget\\packages\\",
-      "outputPath": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\capitalizar\\obj\\",
+      "outputPath": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\1.1-Algoritmos_Programacion_Estructurada\\capitalizar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

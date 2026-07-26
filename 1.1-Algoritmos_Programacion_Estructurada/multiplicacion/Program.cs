@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        //multiplicacion por suma sucesiva
         int a = 43;
         int b = 101;
         int factor = 0;
@@ -13,6 +14,7 @@ class Program
         }
         Console.WriteLine(factor);
 
+        //división por resta sucesiva
         int dividendo = 150;
         int divisor = 10;
         int cociente = 0;

@@ -7,6 +7,8 @@ class Program
         string palabra = Console.ReadLine();
         palabra = RemoveWhiteSpaces(palabra);
         string reversa = string.Empty;
+        
+        //concatenamos los caracteres de manera invertida
         foreach(char letra in palabra)
         {
             reversa = letra.ToString() + reversa;
@@ -24,6 +26,7 @@ class Program
 
     }
 
+    //funcion para remover los espacios en blanco
     public static string RemoveWhiteSpaces(string word)
     {
         string newWord = "";
