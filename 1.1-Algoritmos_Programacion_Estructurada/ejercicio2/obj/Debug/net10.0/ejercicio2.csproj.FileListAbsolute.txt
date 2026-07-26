@@ -1,0 +1,14 @@
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\bin\Debug\net10.0\ejercicio2.exe
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\bin\Debug\net10.0\ejercicio2.deps.json
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\bin\Debug\net10.0\ejercicio2.runtimeconfig.json
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\bin\Debug\net10.0\ejercicio2.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\bin\Debug\net10.0\ejercicio2.pdb
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\obj\Debug\net10.0\ejercicio2.GeneratedMSBuildEditorConfig.editorconfig
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\obj\Debug\net10.0\ejercicio2.AssemblyInfoInputs.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\obj\Debug\net10.0\ejercicio2.AssemblyInfo.cs
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\obj\Debug\net10.0\ejercicio2.csproj.CoreCompileInputs.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\obj\Debug\net10.0\ejercicio2.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\obj\Debug\net10.0\refint\ejercicio2.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\obj\Debug\net10.0\ejercicio2.pdb
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\obj\Debug\net10.0\ejercicio2.genruntimeconfig.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\ejercicio2\obj\Debug\net10.0\ref\ejercicio2.dll

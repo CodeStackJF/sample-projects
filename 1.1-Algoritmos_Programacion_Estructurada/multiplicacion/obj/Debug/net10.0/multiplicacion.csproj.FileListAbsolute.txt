@@ -1,0 +1,14 @@
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\bin\Debug\net10.0\multiplicacion.exe
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\bin\Debug\net10.0\multiplicacion.deps.json
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\bin\Debug\net10.0\multiplicacion.runtimeconfig.json
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\bin\Debug\net10.0\multiplicacion.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\bin\Debug\net10.0\multiplicacion.pdb
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\obj\Debug\net10.0\multiplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\obj\Debug\net10.0\multiplicacion.AssemblyInfoInputs.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\obj\Debug\net10.0\multiplicacion.AssemblyInfo.cs
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\obj\Debug\net10.0\multiplicacion.csproj.CoreCompileInputs.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\obj\Debug\net10.0\multiplicacion.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\obj\Debug\net10.0\refint\multiplicacion.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\obj\Debug\net10.0\multiplicacion.pdb
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\obj\Debug\net10.0\multiplicacion.genruntimeconfig.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\multiplicacion\obj\Debug\net10.0\ref\multiplicacion.dll

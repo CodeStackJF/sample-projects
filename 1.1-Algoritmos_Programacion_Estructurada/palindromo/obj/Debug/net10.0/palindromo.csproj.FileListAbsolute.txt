@@ -1,0 +1,14 @@
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\bin\Debug\net10.0\palindromo.exe
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\bin\Debug\net10.0\palindromo.deps.json
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\bin\Debug\net10.0\palindromo.runtimeconfig.json
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\bin\Debug\net10.0\palindromo.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\bin\Debug\net10.0\palindromo.pdb
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\obj\Debug\net10.0\palindromo.GeneratedMSBuildEditorConfig.editorconfig
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\obj\Debug\net10.0\palindromo.AssemblyInfoInputs.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\obj\Debug\net10.0\palindromo.AssemblyInfo.cs
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\obj\Debug\net10.0\palindromo.csproj.CoreCompileInputs.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\obj\Debug\net10.0\palindromo.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\obj\Debug\net10.0\refint\palindromo.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\obj\Debug\net10.0\palindromo.pdb
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\obj\Debug\net10.0\palindromo.genruntimeconfig.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\palindromo\obj\Debug\net10.0\ref\palindromo.dll

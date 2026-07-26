@@ -1,0 +1,14 @@
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\bin\Debug\net10.0\capitalizar.exe
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\bin\Debug\net10.0\capitalizar.deps.json
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\bin\Debug\net10.0\capitalizar.runtimeconfig.json
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\bin\Debug\net10.0\capitalizar.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\bin\Debug\net10.0\capitalizar.pdb
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\obj\Debug\net10.0\capitalizar.GeneratedMSBuildEditorConfig.editorconfig
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\obj\Debug\net10.0\capitalizar.AssemblyInfoInputs.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\obj\Debug\net10.0\capitalizar.AssemblyInfo.cs
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\obj\Debug\net10.0\capitalizar.csproj.CoreCompileInputs.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\obj\Debug\net10.0\capitalizar.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\obj\Debug\net10.0\refint\capitalizar.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\obj\Debug\net10.0\capitalizar.pdb
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\obj\Debug\net10.0\capitalizar.genruntimeconfig.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\capitalizar\obj\Debug\net10.0\ref\capitalizar.dll
