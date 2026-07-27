@@ -8,23 +8,31 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\josej\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\usuario\\.nuget\\packages\\": {},
+    "D:\\Program Files\\DevExpress23\\Components\\Offline Packages": {},
+    "D:\\Program Files\\DevExpress\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\1.2-programacion_modular\\inventario\\inventario.csproj",
+      "projectUniqueName": "D:\\GIT\\AplicacionesSeguras\\sample-projects\\1.2-programacion_modular\\inventario\\inventario.csproj",
       "projectName": "inventario",
-      "projectPath": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\1.2-programacion_modular\\inventario\\inventario.csproj",
-      "packagesPath": "C:\\Users\\josej\\.nuget\\packages\\",
-      "outputPath": "D:\\josej\\Documents\\Proyectos\\ExamenDeGrado\\C#\\1.2-programacion_modular\\inventario\\obj\\",
+      "projectPath": "D:\\GIT\\AplicacionesSeguras\\sample-projects\\1.2-programacion_modular\\inventario\\inventario.csproj",
+      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\GIT\\AplicacionesSeguras\\sample-projects\\1.2-programacion_modular\\inventario\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Program Files\\DevExpress23\\Components\\Offline Packages",
+        "D:\\Program Files\\DevExpress\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\josej\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -34,6 +42,8 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\Program Files\\DevExpress23\\Components\\System\\Components\\Packages": {},
+        "D:\\Program Files\\DevExpress\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -73,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.110/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
