@@ -1,0 +1,15 @@
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\obj\Debug\net10.0\inventario.GeneratedMSBuildEditorConfig.editorconfig
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\obj\Debug\net10.0\inventario.AssemblyInfoInputs.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\obj\Debug\net10.0\inventario.AssemblyInfo.cs
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\obj\Debug\net10.0\inventario.csproj.CoreCompileInputs.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\obj\Debug\net10.0\inventario.sourcelink.json
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\bin\Debug\net10.0\inventario.exe
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\bin\Debug\net10.0\inventario.deps.json
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\bin\Debug\net10.0\inventario.runtimeconfig.json
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\bin\Debug\net10.0\inventario.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\bin\Debug\net10.0\inventario.pdb
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\obj\Debug\net10.0\inventario.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\obj\Debug\net10.0\refint\inventario.dll
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\obj\Debug\net10.0\inventario.pdb
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\obj\Debug\net10.0\inventario.genruntimeconfig.cache
+D:\josej\Documents\Proyectos\ExamenDeGrado\C#\1.1-Algoritmos_Programacion_Estructurada\1.2-programacion_modular\inventario\obj\Debug\net10.0\ref\inventario.dll
