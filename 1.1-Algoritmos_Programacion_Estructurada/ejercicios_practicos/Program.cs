@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Ejercicio4();
+        Ejercicio5();
     }
 
     public static void Ejercicio1()
@@ -134,8 +134,42 @@ class Program
         for(int i = 0; i <= notas.GetLength(0) - 1; i++)
         {
             notas[i, 0] = rand.NextDouble() * 10;
-            notas[i, 0] = rand.NextDouble() * 10;
-            notas[i, 0] = rand.NextDouble() * 10;
+            notas[i, 1] = rand.NextDouble() * 10;
+            notas[i, 2] = rand.NextDouble() * 10;
         }
+
+        for(int i = 0; i <= notas.GetLength(0) - 1; i++)
+        {
+            double promedio = (notas[i, 0] + notas[i, 1] + notas[i, 2]) / 3;
+            Console.WriteLine($"La nota promedio de {estudiantes[i]} es {promedio}");
+        }
+
+        int idEstudiantePromedioMayor = 0;
+        double notaMayor = 0;
+        for(int i = 0; i <= notas.GetLength(0) - 1; i++)
+        {
+            double promedio = (notas[i, 0] + notas[i, 1] + notas[i, 2]) / 3;
+            if(promedio >= notaMayor)
+            {
+                notaMayor = promedio;
+                idEstudiantePromedioMayor = i;
+            }
+        }
+
+        Console.WriteLine($"El estudiante con la nota promedio mayor es {estudiantes[idEstudiantePromedioMayor]} con {Math.Round(notaMayor)}");
+
+        int idEstudiantePromedioMenor = 0;
+        double notaMenor = notaMayor;
+        for(int i = 0; i <= notas.GetLength(0) - 1; i++)
+        {
+            double promedio = (notas[i, 0] + notas[i, 1] + notas[i, 2]) / 3;
+            if(promedio <= notaMenor)
+            {
+                notaMenor = promedio;
+                idEstudiantePromedioMenor = i;
+            }
+        }
+
+        Console.WriteLine($"El estudiante con la nota promedio menor es {estudiantes[idEstudiantePromedioMenor]} con {Math.Round(notaMenor, 2)}");
     }
 }
