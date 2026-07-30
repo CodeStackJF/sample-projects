@@ -1,0 +1,15 @@
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\bin\Debug\net10.0\ejercicios_practicos.exe
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\bin\Debug\net10.0\ejercicios_practicos.deps.json
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\bin\Debug\net10.0\ejercicios_practicos.runtimeconfig.json
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\bin\Debug\net10.0\ejercicios_practicos.dll
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\bin\Debug\net10.0\ejercicios_practicos.pdb
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\obj\Debug\net10.0\ejercicios_practicos.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\obj\Debug\net10.0\ejercicios_practicos.AssemblyInfoInputs.cache
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\obj\Debug\net10.0\ejercicios_practicos.AssemblyInfo.cs
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\obj\Debug\net10.0\ejercicios_practicos.csproj.CoreCompileInputs.cache
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\obj\Debug\net10.0\ejercicios_practicos.sourcelink.json
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\obj\Debug\net10.0\ejercicios_practicos.dll
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\obj\Debug\net10.0\refint\ejercicios_practicos.dll
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\obj\Debug\net10.0\ejercicios_practicos.pdb
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\obj\Debug\net10.0\ejercicios_practicos.genruntimeconfig.cache
+D:\GIT\AplicacionesSeguras\sample-projects\1.1-Algoritmos_Programacion_Estructurada\ejercicios_practicos\obj\Debug\net10.0\ref\ejercicios_practicos.dll
