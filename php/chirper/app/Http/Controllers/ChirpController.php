@@ -33,6 +33,6 @@ class ChirpController extends Controller
         public function index()
         {
             $chirps = Chirp::with('user')->latest()->take(50)->get();
-            return view('home', ['chirps' => $chirps]);
+            return view('home.home', ['chirps' => $chirps]);
         }
 }
