@@ -32,3 +32,12 @@ crear tablas
 php artisan migrate
 
 eliminar migraciones
+
+https://laravel.com/docs/13.x/eloquent
+
+https://laravel.com/docs/13.x/migrations
+
+crear modelo
+php artisan make:model Chirp
+
+PHP Namespace Resolver Extension
