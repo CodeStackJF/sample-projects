@@ -1,0 +1,34 @@
+php -v
+laravel -v
+composer global require laravel/installer
+laravel new chirper
+
+composer run dev
+
+habilitar sqlite en php:
+extension=sqlite3
+extension=pdo_sqlite
+
+iniciar migracion
+php artisan migrate
+
+crear components->layout.blade.php
+$slot es el contenido
+
+<x-layout>
+
+</x-layout>
+
+para enviar parametro:
+<x-slot:variable>valor</x-slot:variable>
+
+crear controlador
+php artisan make:controller ChirpController
+
+crear migracion
+php artisan make:migration create_chirps_table
+
+crear tablas
+php artisan migrate
+
+eliminar migraciones
