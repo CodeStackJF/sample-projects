@@ -1,0 +1,6 @@
+<ul>
+@foreach(customers customer in ViewBag.customers)
+{
+    <li>@customer.customerNumber -  @customer.customerName</li>
+}
+</ul>

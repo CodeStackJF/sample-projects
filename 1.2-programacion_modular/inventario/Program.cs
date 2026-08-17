@@ -55,6 +55,11 @@ class Program
         inventario.MostrarInventario();
 
     }
+
+    int sumar(int a, int b)
+    {
+        return a + b;
+    }
 }
 
 //Clase para almacenar los datos del producto

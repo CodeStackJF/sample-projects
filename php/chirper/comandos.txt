@@ -41,3 +41,7 @@ crear modelo
 php artisan make:model Chirp
 
 PHP Namespace Resolver Extension
+
+instalar packetes como np install
+
+composer install

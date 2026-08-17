@@ -33,6 +33,6 @@ class User extends Authenticatable
 
     public function chiprs():HasMany
     {
-        return $this->hasMany(Chirp::class);
+        return $this->hasMany(Chirp::class, 'user_id', 'id');
     }
 }
