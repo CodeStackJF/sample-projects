@@ -15,3 +15,8 @@ Route::get('/about', function(){
 
 Route::get('/users', [UserController::class, 'index']);
 Route::get('/clients', [ClientController::class, 'index']);
+Route::post('/clients', [ClientController::class, 'save']);
+Route::get('/clients/{client}/delete', [ClientController::class, 'delete']);
+Route::get('/clients/{client}/edit', [ClientController::class, 'edit']);
+Route::get('/clients/{client}/view', [ClientController::class, 'view']);
+Route::post('/clients/{client}/update', [ClientController::class, 'update']);
