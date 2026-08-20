@@ -1,0 +1,22 @@
+Crear un nuevo proyecto
+npm create vue@latest
+
+Instalar paquetes
+npm install
+
+Si hay inconvenientes en la instalación de dependencias
+npm install --legacy-peer-deps
+
+Ejecutar proyecto
+npm run dev
+
+Compilar proyecto
+npm run build
+
+Bootstrap
+npm i bootstrap bootstrap-vue-next --legacy-peer-deps
+npm install @popperjs/core
+
+npm install @vitejs/plugin-vue --save-dev --legacy-peer-deps
+npm install axios --save-dev --legacy-peer-deps
+npm install vue-axios --save-dev --legacy-peer-deps
