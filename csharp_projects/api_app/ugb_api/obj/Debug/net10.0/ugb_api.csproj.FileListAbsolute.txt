@@ -10,7 +10,6 @@ D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\obj\D
 D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\bin\Debug\net10.0\appsettings.Development.json
 D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\bin\Debug\net10.0\appsettings.json
 D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\bin\Debug\net10.0\ugb_api.staticwebassets.endpoints.json
-D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\bin\Debug\net10.0\ugb_api.exe
 D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\bin\Debug\net10.0\ugb_api.deps.json
 D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\bin\Debug\net10.0\ugb_api.runtimeconfig.json
 D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\bin\Debug\net10.0\ugb_api.dll
@@ -80,3 +79,4 @@ D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\obj\D
 D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\obj\Debug\net10.0\ugb_api.pdb
 D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\obj\Debug\net10.0\ugb_api.genruntimeconfig.cache
 D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\obj\Debug\net10.0\ref\ugb_api.dll
+D:\GIT\AplicacionesSeguras\sample-projects\csharp_projects\api_app\ugb_api\bin\Debug\net10.0\ugb_api.exe

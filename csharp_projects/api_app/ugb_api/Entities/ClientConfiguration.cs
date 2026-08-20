@@ -11,6 +11,9 @@ namespace ugb_api.Entities
 
             builder.HasKey(client => client.id);
 
+            builder.HasIndex(client => client.email)
+                .IsUnique();
+
             builder.Property(client => client.id)
                 .HasColumnName("id")
                 .ValueGeneratedOnAdd();

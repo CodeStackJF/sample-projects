@@ -1,5 +1,52 @@
 <template>
   <div class="row">
+    <div class="col-md-12 mb-4">
+      <form @submit.prevent="createClient" class="card p-3 bg-dark text-white">
+        <h4 class="mb-3">Crear cliente</h4>
+
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="first_name" class="form-label">Nombre</label>
+            <input
+              id="first_name"
+              v-model="clientForm.first_name"
+              type="text"
+              class="form-control"
+              placeholder="Ingrese el nombre"
+              required
+            />
+          </div>
+
+          <div class="col-md-6 mb-3">
+            <label for="last_name" class="form-label">Apellido</label>
+            <input
+              id="last_name"
+              v-model="clientForm.last_name"
+              type="text"
+              class="form-control"
+              placeholder="Ingrese el apellido"
+              required
+            />
+          </div>
+
+          <div class="col-md-12 mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              id="email"
+              v-model="clientForm.email"
+              type="email"
+              class="form-control"
+              placeholder="Ingrese el email"
+              required
+            />
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-success">Guardar cliente</button>
+      </form>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-md-12">
       <table class="table table-dark">
         <thead>
@@ -35,6 +82,11 @@ export default {
     return {
       name: 'jose',
       clients: [],
+      clientForm: {
+        first_name: '',
+        last_name: '',
+        email: '',
+      },
     }
   },
   async mounted() {
@@ -46,6 +98,22 @@ export default {
       await this.axios.get('/clients').then((response) => {
         this.clients = response.data
       })
+    },
+    async createClient() {
+      try {
+        const response = await this.axios.post('/clients', this.clientForm)
+        this.clients.unshift(response.data)
+        this.resetForm()
+      } catch (error) {
+        console.error('Error al crear cliente:', error.response?.data || error.message)
+      }
+    },
+    resetForm() {
+      this.clientForm = {
+        first_name: '',
+        last_name: '',
+        email: '',
+      }
     } /* ,
             async login()
             {
