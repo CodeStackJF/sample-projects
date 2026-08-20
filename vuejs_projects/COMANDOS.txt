@@ -20,3 +20,5 @@ npm install @popperjs/core
 npm install @vitejs/plugin-vue --save-dev --legacy-peer-deps
 npm install axios --save-dev --legacy-peer-deps
 npm install vue-axios --save-dev --legacy-peer-deps
+
+--auth-storage
