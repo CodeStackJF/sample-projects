@@ -11,7 +11,8 @@ class ClientController extends Controller
     public function index()
     {
         $clients = Clients::get();
-        return view('clients.index', ['clients' => $clients]);
+        return response()->json($clients);
+        //return view('clients.index', ['clients' => $clients]);
     }
 
     public function save(Request $request)
