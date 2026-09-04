@@ -1,0 +1,11 @@
+django-admin startproject mysite .
+
+python manage.py migrate
+
+python manage.py runserver
+
+python manage.py startapp blog
+
+https://tutorial.djangogirls.org/en/django_start_project/
+
+python manage.py makemigrations blog
