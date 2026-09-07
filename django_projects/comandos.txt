@@ -1,0 +1,46 @@
+python -m django startproject mi_proyecto
+
+Crear proyecto:
+django-admin startproject <nombre_proyecto> <directorio>
+
+Ejecutar servidor:
+python manage.py runserver
+
+Crear aplicación dentro de proyecto:
+python manage.py startapp <nombre_app>
+
+Hacer migraciones
+python manage.py migrate
+
+REGISTRAR LA APP EN SETTINGS.PY
+
+INCLUIR LAS URLS EN urls.py
+path('', include('users.urls')),
+
+CREAMOS LAS URLS
+from django.urls import path
+from . import views
+
+ACTUALIZAR migraciones
+python manage.py makemigrations
+python manage.py migrate
+
+SE CREAN LOS MODELOS EN models.py en la carpeta users
+
+SE CREAN LOS FORMULARIOS en forms.py
+
+CREAR LAS VISTAS PARA EL CRUD EN views.py
+
+CREAR LAS PLANTILLAS EN templates
+
+CONFIGURAR LA AUTENTICACION PERSONALIZADA EN SETTINGS.PY# --------------------------------------------------------------------------
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'user_list'
+LOGOUT_REDIRECT_URL = 'login'
+
+# Parámetros del algoritmo de hash de contraseñas (PBKDF2-HMAC-SHA256)
+PASSWORD_HASH_ALGORITHM = 'sha256'
+PASSWORD_HASH_ITERATIONS = 260000
+
+python manage.py shell
+from polls.models import Question

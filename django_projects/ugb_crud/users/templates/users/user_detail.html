@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-hover table-responsive">
+                <tbody>
+                    <tr>
+                        <th>ID</th>
+                        <td>{{user.id}}</td>
+                        <th></th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>First Name</th>
+                        <td>{{user.first_name}}</td>
+                        <th>Last Name</th>
+                        <td>{{user.last_name}}</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>{{user.email}}</td>
+                        <th>Phone Number</th>
+                        <td>{{user.phone_number}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="{% url 'user_list' %}">Back</a>
+        </div>
+    </div>
+{% endblock %}

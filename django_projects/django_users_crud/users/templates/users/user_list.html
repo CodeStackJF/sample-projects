@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}Usuarios{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h3>Usuarios</h3>
+    <a href="{% url 'user_create' %}" class="btn btn-primary">+ Nuevo usuario</a>
+</div>
+
+<form method="get" class="row g-2 mb-3">
+    <div class="col-auto flex-grow-1">
+        <input type="text" name="q" value="{{ query }}" class="form-control"
+               placeholder="Buscar por nombre, apellido o email...">
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-outline-secondary">Buscar</button>
+    </div>
+</form>
+
+<div class="card">
+    <div class="table-responsive">
+        <table class="table table-hover mb-0 align-middle">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre completo</th>
+                    <th>Email</th>
+                    <th>Teléfono</th>
+                    <th>Estado</th>
+                    <th>Creado</th>
+                    <th class="text-end">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user_obj in users %}
+                <tr>
+                    <td>{{ user_obj.id }}</td>
+                    <td>{{ user_obj.full_name }}</td>
+                    <td>{{ user_obj.email }}</td>
+                    <td>{{ user_obj.phone_number|default:"—" }}</td>
+                    <td>
+                        {% if user_obj.status == "active" %}
+                            <span class="badge badge-active">Activo</span>
+                        {% else %}
+                            <span class="badge badge-inactive">Inactivo</span>
+                        {% endif %}
+                    </td>
+                    <td>{{ user_obj.created_at|date:"d/m/Y H:i" }}</td>
+                    <td class="text-end">
+                        <a href="{% url 'user_detail' user_obj.pk %}" class="btn btn-sm btn-outline-secondary">Ver</a>
+                        <a href="{% url 'user_update' user_obj.pk %}" class="btn btn-sm btn-outline-primary">Editar</a>
+                        <a href="{% url 'user_delete' user_obj.pk %}" class="btn btn-sm btn-outline-danger">Eliminar</a>
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="7" class="text-center text-muted py-4">No hay usuarios registrados.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}{{ user_obj.full_name }}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-7">
+        <div class="card p-4">
+            <div class="d-flex justify-content-between align-items-start mb-3">
+                <h3>{{ user_obj.full_name }}</h3>
+                {% if user_obj.status == "active" %}
+                    <span class="badge badge-active fs-6">Activo</span>
+                {% else %}
+                    <span class="badge badge-inactive fs-6">Inactivo</span>
+                {% endif %}
+            </div>
+
+            <table class="table table-borderless">
+                <tr>
+                    <th style="width: 200px;">ID</th>
+                    <td>{{ user_obj.id }}</td>
+                </tr>
+                <tr>
+                    <th>Correo electrónico</th>
+                    <td>{{ user_obj.email }}</td>
+                </tr>
+                <tr>
+                    <th>Teléfono</th>
+                    <td>{{ user_obj.phone_number|default:"—" }}</td>
+                </tr>
+                <tr>
+                    <th>Creado el</th>
+                    <td>{{ user_obj.created_at|date:"d/m/Y H:i:s" }}</td>
+                </tr>
+            </table>
+
+            <div class="d-flex justify-content-between mt-3">
+                <a href="{% url 'user_list' %}" class="btn btn-outline-secondary">← Volver al listado</a>
+                <div>
+                    <a href="{% url 'user_update' user_obj.pk %}" class="btn btn-primary">Editar</a>
+                    <a href="{% url 'user_delete' user_obj.pk %}" class="btn btn-danger">Eliminar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
