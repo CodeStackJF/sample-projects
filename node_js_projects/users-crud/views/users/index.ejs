@@ -1,0 +1,51 @@
+<% include ('../partials/header.ejs') %>
+
+<h1>Usuarios</h1>
+
+<% if (success) { %>
+  <div class="alert alert-success"><%= success %></div>
+<% } %>
+
+<div class="actions-bar">
+  <a href="/users/new" class="btn btn-primary">+ Nuevo usuario</a>
+</div>
+
+<% if (users.length === 0) { %>
+  <p class="empty-state">No hay usuarios registrados todavía.</p>
+<% } else { %>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Email</th>
+        <th>Teléfono</th>
+        <th>Creado el</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% users.forEach(function(user) { %>
+        <tr>
+          <td><%= user.id %></td>
+          <td><%= user.first_name %></td>
+          <td><%= user.last_name %></td>
+          <td><%= user.email %></td>
+          <td><%= user.phone_number || '-' %></td>
+          <td><%= user.created_on %></td>
+          <td class="actions">
+            <a href="/users/<%= user.id %>" class="btn btn-sm btn-secondary">Ver</a>
+            <a href="/users/<%= user.id %>/edit" class="btn btn-sm btn-warning">Editar</a>
+            <form action="/users/<%= user.id %>?_method=DELETE" method="POST" class="inline-form"
+                  onsubmit="return confirm('¿Seguro que deseas eliminar este usuario?');">
+              <button type="submit" class="btn btn-sm btn-danger">Eliminar</button>
+            </form>
+          </td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+<% } %>
+
+<% include ('../partials/footer.ejs') %>

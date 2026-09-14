@@ -1,0 +1,20 @@
+{
+  "name": "users-crud",
+  "version": "1.0.0",
+  "description": "CRUD sencillo de Users con Node.js, Express y SQLite",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7",
+    "ejs": "^3.1.10",
+    "method-override": "^3.0.0",
+    "express-validator": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

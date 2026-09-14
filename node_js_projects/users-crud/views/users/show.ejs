@@ -1,0 +1,19 @@
+<% include ('../partials/header.ejs') %>
+
+<h1>Detalle de usuario</h1>
+
+<div class="card">
+  <p><strong>ID:</strong> <%= user.id %></p>
+  <p><strong>Nombre:</strong> <%= user.first_name %></p>
+  <p><strong>Apellido:</strong> <%= user.last_name %></p>
+  <p><strong>Email:</strong> <%= user.email %></p>
+  <p><strong>Teléfono:</strong> <%= user.phone_number || '-' %></p>
+  <p><strong>Creado el:</strong> <%= user.created_on %></p>
+</div>
+
+<div class="form-actions">
+  <a href="/users/<%= user.id %>/edit" class="btn btn-warning">Editar</a>
+  <a href="/users" class="btn btn-secondary">Volver al listado</a>
+</div>
+
+<% include ('../partials/footer.ejs') %>

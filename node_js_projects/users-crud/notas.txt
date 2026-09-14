@@ -1,0 +1,12 @@
+2. Orden lógico de desarrollo (si lo estás replicando línea por línea)
+
+Este es el orden en que fluye una petición y por eso conviene construirlo así, de "abajo hacia arriba":
+
+package.json — defines qué dependencias necesitas antes que nada.
+config/database.js — la base de todo: conexión a SQLite y creación de la tabla users. Sin datos no hay nada que mostrar.
+models/userModel.js — las funciones que hablan directo con la base de datos (getAll, create, update, delete, emailExists). Se apoyan en config/database.js.
+controllers/userController.js — la lógica que decide qué hacer con cada petición (validar, llamar al modelo, elegir qué vista renderizar). Depende del modelo.
+routes/userRoutes.js — conecta cada URL/verbo HTTP con su función del controlador. Depende del controlador.
+views/ — las plantillas EJS que el controlador va a renderizar (partials/header.ejs y footer.ejs primero, porque las demás vistas las incluyen; luego index.ejs, new.ejs, edit.ejs, show.ejs, error.ejs).
+public/css/style.css — estilos, es lo último porque no afecta la lógica.
+app.js — el punto de entrada que junta todo: configura Express, EJS, middlewares (method-override, express.urlencoded), monta las rutas y levanta el servidor.

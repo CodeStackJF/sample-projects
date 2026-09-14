@@ -1,0 +1,42 @@
+crear entorno
+python3 -m venv .venv
+
+activar entorno
+.venv\Scripts\activate
+
+pip install django
+pip install djangorestframework
+
+crear proyecto
+django-admin startproject tutorial
+
+cd tutorial
+
+crear aplicacion
+python manage.py startapp snippets
+
+agregar en settings.py la aplicacion
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+    'snippets',
+]
+
+crear el modelo
+models.py
+
+hacer las migraciones
+python manage.py makemigrations snippets
+python manage.py migrate snippets
+
+crear serializador serializers.py en la aplicacion
+
+crear las vistas views.py
+
+crear urls en aplicacion/urls.py
+
+definir paginacion en aplicacion/settings.py
+REST_FRAMEWORK = {
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "PAGE_SIZE": 10,
+}
