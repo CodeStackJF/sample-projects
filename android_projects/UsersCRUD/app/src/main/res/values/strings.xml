@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Users CRUD</string>
+    <string name="empty_users">No hay usuarios registrados todavía.</string>
+    <string name="add_user">Agregar usuario</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="save">Guardar</string>
+    <string name="first_name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Teléfono</string>
+    <string name="created_on">Creado el</string>
+</resources>

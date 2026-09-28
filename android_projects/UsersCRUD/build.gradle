@@ -1,0 +1,5 @@
+// Top-level build file donde se declaran las opciones de configuración
+// comunes a todos los subproyectos/módulos.
+plugins {
+    id 'com.android.application' version '8.2.2' apply false
+}
