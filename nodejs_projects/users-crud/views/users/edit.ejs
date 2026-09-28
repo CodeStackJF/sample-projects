@@ -1,0 +1,42 @@
+<% include ('../partials/header.ejs') %>
+
+<h1>Editar usuario</h1>
+
+<% if (errors && errors.length > 0) { %>
+  <div class="alert alert-error">
+    <ul>
+      <% errors.forEach(function(error) { %>
+        <li><%= error.msg %></li>
+      <% }); %>
+    </ul>
+  </div>
+<% } %>
+
+<form action="/users/<%= user.id %>?_method=PUT" method="POST" class="form">
+  <div class="form-group">
+    <label for="first_name">Nombre</label>
+    <input type="text" id="first_name" name="first_name" value="<%= oldData.first_name || '' %>" required>
+  </div>
+
+  <div class="form-group">
+    <label for="last_name">Apellido</label>
+    <input type="text" id="last_name" name="last_name" value="<%= oldData.last_name || '' %>" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" value="<%= oldData.email || '' %>" required>
+  </div>
+
+  <div class="form-group">
+    <label for="phone_number">Teléfono</label>
+    <input type="text" id="phone_number" name="phone_number" value="<%= oldData.phone_number || '' %>">
+  </div>
+
+  <div class="form-actions">
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+    <a href="/users" class="btn btn-secondary">Cancelar</a>
+  </div>
+</form>
+
+<% include ('../partials/footer.ejs') %>
